@@ -3,7 +3,7 @@ name: Deploy Hugo + TailBliss to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # spustí se při každém push na main
 
 permissions:
   contents: read
@@ -28,19 +28,18 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.148.2'
+          hugo-version: '0.148.2'   # stejná verze jako používáš lokálně
           extended: true
 
-      # Build TailBliss CSS
+      # ⚡️ Tohle nainstaluje závislosti bez spouštění install.js
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --ignore-scripts
         working-directory: themes/tailbliss
 
-      - name: Build TailBliss CSS
+      - name: Build TailBliss assets
         run: pnpm run build
         working-directory: themes/tailbliss
 
-      # 🔑 Tady se spustí Hugo, aby vygeneroval celý web
       - name: Build Hugo site
         run: hugo --minify
 
