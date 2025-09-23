@@ -28,10 +28,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.148.2'  # stejná verze jako máš lokálně
+          hugo-version: '0.148.2'   # stejná verze jako používáš lokálně
           extended: true
 
-      # 🔑 Tohle je to důležité
+      # 🔑 Důležité kroky pro TailBliss
       - name: Install dependencies
         run: pnpm install
         working-directory: themes/tailbliss
@@ -43,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public   # tady se uloží hotový web
+          path: ./public   # zde Hugo ukládá hotový web
 
   deploy:
     environment:
