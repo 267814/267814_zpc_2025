@@ -1,5 +1,5 @@
 baseURL: "https://267814.github.io/267814_ZPC_2025/"
-title: Jak se mame
+title: Welcome on my site!
 languageCode: en-us
 theme: tailbliss
 DefaultContentLanguage: en
@@ -7,6 +7,7 @@ enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
 canonifyURLs: true
+relativeURLs: true
 pagination:
   pagerSize: 9
 darkmode_js:
@@ -51,7 +52,7 @@ params:
   author: Nusser Studios
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
+  moto: "Here you can find out more about me and my projects."
   description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
   disable_theme_toggle: false
   disable_stay_uptodate: true
@@ -128,11 +129,11 @@ menu:
   main:
     - identifier: prose
       name: Prose
-      url: /prose/
+      pageRef: prose.md
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      pageRef: about.md
       weight: 20
     - identifier: categories
       pre: dropdown
@@ -144,7 +145,7 @@ menu:
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      pageRef: contact.md
       weight: 50
   categories:
     - identifier: prose
