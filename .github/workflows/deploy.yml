@@ -31,18 +31,19 @@ jobs:
           hugo-version: '0.148.2'  # stejná verze jako máš lokálně
           extended: true
 
+      # 🔑 Tohle je to důležité
       - name: Install dependencies
         run: pnpm install
         working-directory: themes/tailbliss
 
-      - name: Build site
+      - name: Build site with TailBliss
         run: pnpm run build
         working-directory: themes/tailbliss
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public  # tady Hugo vygeneruje hotový web
+          path: ./public   # tady se uloží hotový web
 
   deploy:
     environment:
