@@ -129,11 +129,11 @@ menu:
   main:
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: /267814_ZPC_2025/prose/
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      url: /267814_ZPC_2025/about/
       weight: 20
     - identifier: categories
       pre: dropdown
@@ -145,16 +145,16 @@ menu:
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: /267814_ZPC_2025/contact/
       weight: 50
   categories:
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: /267814_ZPC_2025/prose/
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      url: /267814_ZPC_2025/about/
       weight: 20
   dropdown:
     - identifier: appearance
@@ -178,7 +178,7 @@ menu:
   footer:
     - identifier: about
       name: About
-      url: /about/
+      url: /267814_ZPC_2025/about/
       weight: 10
     - identifier: blog
       name: Blog
@@ -190,11 +190,11 @@ menu:
       weight: 30
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: /267814_ZPC_2025/prose/
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: /267814_ZPC_2025/contact/
       weight: 50
 
 markup:
