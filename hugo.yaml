@@ -1,12 +1,12 @@
 baseURL: "https://267814.github.io/267814_ZPC_2025/"
-title: TailBliss
+title: Jak se mame
 languageCode: en-us
 theme: tailbliss
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
-canonifyURLs: false
+canonifyURLs: true
 pagination:
   pagerSize: 9
 darkmode_js:
