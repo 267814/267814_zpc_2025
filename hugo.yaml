@@ -1,4 +1,4 @@
-baseURL: "https://267814.github.io/267814_ZPC_2025/"
+baseURL: "https://267814.github.io/267814_zpc_2025/"
 title: Welcome on my site!
 languageCode: en-us
 theme: tailbliss
@@ -129,11 +129,11 @@ menu:
   main:
     - identifier: prose
       name: Prose
-      url: /267814_ZPC_2025/prose/
+      url: /prose/
       weight: 10
     - identifier: about
       name: About
-      url: /267814_ZPC_2025/about/
+      url: /about/
       weight: 20
     - identifier: categories
       pre: dropdown
@@ -145,16 +145,16 @@ menu:
       weight: 40
     - identifier: contact
       name: Contact
-      url: /267814_ZPC_2025/contact/
+      url: /contact/
       weight: 50
   categories:
     - identifier: prose
       name: Prose
-      url: /267814_ZPC_2025/prose/
+      url: /prose/
       weight: 10
     - identifier: about
       name: About
-      url: /267814_ZPC_2025/about/
+      url: /about/
       weight: 20
   dropdown:
     - identifier: appearance
@@ -178,7 +178,7 @@ menu:
   footer:
     - identifier: about
       name: About
-      url: /267814_ZPC_2025/about/
+      url: /about/
       weight: 10
     - identifier: blog
       name: Blog
@@ -190,11 +190,11 @@ menu:
       weight: 30
     - identifier: prose
       name: Prose
-      url: /267814_ZPC_2025/prose/
+      url: /prose/
       weight: 40
     - identifier: contact
       name: Contact
-      url: /267814_ZPC_2025/contact/
+      url: /contact/
       weight: 50
 
 markup:
