@@ -129,11 +129,11 @@ menu:
   main:
     - identifier: prose
       name: Prose
-      pageRef: prose.md
+      url: /prose/
       weight: 10
     - identifier: about
       name: About
-      pageRef: about.md
+      url: /about/
       weight: 20
     - identifier: categories
       pre: dropdown
@@ -145,7 +145,7 @@ menu:
       weight: 40
     - identifier: contact
       name: Contact
-      pageRef: contact.md
+      url: /contact/
       weight: 50
   categories:
     - identifier: prose
