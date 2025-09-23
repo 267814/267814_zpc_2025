@@ -125,15 +125,15 @@ params:
       url: 'https://twitter.com/nusserstudios'
     
 
-menu:
+mmenu:
   main:
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: prose/
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 20
     - identifier: categories
       pre: dropdown
@@ -145,32 +145,32 @@ menu:
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: contact/
       weight: 50
   categories:
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: prose/
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 20
   dropdown:
     - identifier: appearance
-      pre: stars # can be stars, comments or piechart
+      pre: stars
       name: Appearance
       post: "Easy customization"
       url: "#"
       weight: 10
     - identifier: comments
-      pre: comments # can be stars, comments or piechart
+      pre: comments
       name: Comments
       post: "Check your latest comments"
       url: "#"
       weight: 20
     - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
+      pre: piechart
       name: Analytics
       post: "Take a look at your statistics"
       url: "#"
@@ -178,23 +178,23 @@ menu:
   footer:
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 10
     - identifier: blog
       name: Blog
-      url: /categories/blog/
+      url: categories/blog/
       weight: 20
     - identifier: news
       name: News
-      url: /categories/news/
+      url: categories/news/
       weight: 30
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: prose/
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: contact/
       weight: 50
 
 markup:
