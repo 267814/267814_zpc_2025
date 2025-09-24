@@ -57,6 +57,9 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: true
 
+  siteLogoText: "Jak se máme!"   # Text vlevo nahoře
+  copyrightText: "Jan Hrnek"            # Text dole v patičce
+
   p1:
     heading: "Our mission"
     image: "images/pages/our-mission.png"
