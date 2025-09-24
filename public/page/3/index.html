@@ -94,7 +94,7 @@
             <a href="http://localhost:1313/267814_ZPC_2025/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
                 <img src="http://localhost:1313/267814_ZPC_2025/images/site-logo.svg" width="36" height="36" class="w-9 h-9 transition-opacity group-hover:opacity-50 group-focus:opacity-70" alt="Welcome on my site! Logo" style="width: 36px; height: 36px;" />
                 <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
-                    Jak se máme!</div>
+                    ZPC project portfolio</div>
             </a>
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="button" :aria-expanded="open" aria-label="Toggle navigation menu" aria-controls="menuItems">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -106,14 +106,26 @@
         <nav id="menuItems" x-cloak :class="{'flex': open, 'hidden': !open}" class="hidden flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/prose/" title="Prose">
-                Prose
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/prose/" title="Intro">
+                Intro
             </a>
             
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/about/" title="About">
-                About
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/about/" title="About me!">
+                About me!
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/categories/blog/" title="Mini-projects">
+                Mini-projects
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/categories/news/" title="Main-project">
+                Main-project
             </a>
             
             
@@ -128,9 +140,13 @@
                 <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 mt-2 w-full rounded-md shadow-lg origin-top-right md:w-48">
                     <div class="px-2 py-2 bg-white rounded-md shadow text-primary-900">
                         
-                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/prose/">Prose</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/prose/">Intro</a>
                         
-                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/about/">About</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/about/">About me!</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/categories/blog/">Mini-projects</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline" href="http://localhost:1313/267814_ZPC_2025/categories/news/">Main-project</a>
                         
                     </div>
                 </div>
@@ -668,23 +684,23 @@
         <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
             
             <div class="px-5 py-2">
-                <a href="http://localhost:1313/about/" class="text-base text-gray-400 hover:text-gray-300">About</a>
+                <a href="http://localhost:1313/267814_ZPC_2025/prose/" class="text-base text-gray-400 hover:text-gray-300">Intro</a>
             </div>
             
             <div class="px-5 py-2">
-                <a href="http://localhost:1313/categories/blog/" class="text-base text-gray-400 hover:text-gray-300">Blog</a>
+                <a href="http://localhost:1313/267814_ZPC_2025/about/" class="text-base text-gray-400 hover:text-gray-300">About me!</a>
             </div>
             
             <div class="px-5 py-2">
-                <a href="http://localhost:1313/categories/news/" class="text-base text-gray-400 hover:text-gray-300">News</a>
+                <a href="http://localhost:1313/267814_ZPC_2025/categories/blog/" class="text-base text-gray-400 hover:text-gray-300">Mini-projects</a>
             </div>
             
             <div class="px-5 py-2">
-                <a href="http://localhost:1313/prose/" class="text-base text-gray-400 hover:text-gray-300">Prose</a>
+                <a href="http://localhost:1313/267814_ZPC_2025/categories/news/" class="text-base text-gray-400 hover:text-gray-300">Main-project</a>
             </div>
             
             <div class="px-5 py-2">
-                <a href="http://localhost:1313/contact/" class="text-base text-gray-400 hover:text-gray-300">Contact</a>
+                <a href="http://localhost:1313/267814_ZPC_2025/contact/" class="text-base text-gray-400 hover:text-gray-300">Contact</a>
             </div>
             
         </nav>

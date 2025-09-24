@@ -57,7 +57,7 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: true
 
-  siteLogoText: "Jak se máme!"   # Text vlevo nahoře
+  siteLogoText: "ZPC project portfolio"   # Text vlevo nahoře
   copyrightText: "Jan Hrnek"            # Text dole v patičce
 
   p1:
@@ -128,37 +128,53 @@ params:
       url: 'https://twitter.com/nusserstudios'
     
 
-mmenu:
+menu:
   main:
     - identifier: prose
-      name: Prose
+      name: Intro
       url: prose/
       weight: 10
     - identifier: about
-      name: About
+      name: About me!
       url: about/
       weight: 20
+    - identifier: blog
+      name: Mini-projects
+      url: categories/blog/
+      weight: 30
+    - identifier: news
+      name: Main-project
+      url: categories/news/
+      weight: 40
     - identifier: categories
       pre: dropdown
       name: Categories
-      weight: 30
+      weight: 50
     - identifier: dropdown
       pre: complexdropdown
       name: Dropdown
-      weight: 40
+      weight: 60
     - identifier: contact
       name: Contact
       url: contact/
-      weight: 50
+      weight: 70
   categories:
     - identifier: prose
-      name: Prose
+      name: Intro
       url: prose/
       weight: 10
     - identifier: about
-      name: About
+      name: About me!
       url: about/
       weight: 20
+    - identifier: blog
+      name: Mini-projects
+      url: categories/blog/
+      weight: 30
+    - identifier: news
+      name: Main-project
+      url: categories/news/
+      weight: 40
   dropdown:
     - identifier: appearance
       pre: stars
@@ -180,21 +196,21 @@ mmenu:
       weight: 30
   footer:
     - identifier: about
-      name: About
+      name: About me!
       url: about/
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: categories/blog/
       weight: 20
-    - identifier: news
-      name: News
-      url: categories/news/
+    - identifier: blog
+      name: Mini-projects
+      url: categories/blog/
       weight: 30
-    - identifier: prose
-      name: Prose
-      url: prose/
+    - identifier: news
+      name: Main-project
+      url: categories/news/
       weight: 40
+    - identifier: prose
+      name: Intro
+      url: prose/
+      weight: 10
     - identifier: contact
       name: Contact
       url: contact/
