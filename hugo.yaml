@@ -130,39 +130,27 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Intro
-      url: prose/
-      weight: 10
     - identifier: about
       name: About me!
       url: about/
-      weight: 20
+      weight: 10
     - identifier: blog
       name: Mini-projects
       url: categories/blog/
-      weight: 30
-    - identifier: news
+      weight: 20
+    - identifier: mainproject
       name: Main-project
-      url: categories/news/
-      weight: 40
+      url: main-project/
+      weight: 30
     - identifier: categories
       pre: dropdown
       name: Categories
       weight: 50
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 60
     - identifier: contact
       name: Contact
       url: contact/
-      weight: 70
+      weight: 60
   categories:
-    - identifier: prose
-      name: Intro
-      url: prose/
-      weight: 10
     - identifier: about
       name: About me!
       url: about/
@@ -171,29 +159,10 @@ menu:
       name: Mini-projects
       url: categories/blog/
       weight: 30
-    - identifier: news
+    - identifier: mainproject
       name: Main-project
-      url: categories/news/
+      url: main-project/
       weight: 40
-  dropdown:
-    - identifier: appearance
-      pre: stars
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
   footer:
     - identifier: about
       name: About me!
@@ -203,18 +172,14 @@ menu:
       name: Mini-projects
       url: categories/blog/
       weight: 30
-    - identifier: news
+    - identifier: mainproject
       name: Main-project
-      url: categories/news/
+      url: main-project/
       weight: 40
-    - identifier: prose
-      name: Intro
-      url: prose/
-      weight: 10
     - identifier: contact
       name: Contact
       url: contact/
-      weight: 50
+      weight: 60
 
 markup:
   goldmark:
