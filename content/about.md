@@ -7,6 +7,14 @@ description: About Us
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
+My name is Jan Hrnek, and I am a second-year student at the Faculty of Mechanical Engineering, Brno University of Technology. This website was created as part of the course How to Make (Almost) Anything.
+
+I have been pursuing studies in mechanical engineering for over five years.
+
+My interests include modern technologies, particularly in the fields of mobile devices, computer systems, and the automotive industry.
+
+I hope this website will serve as a source of inspiration for you!
+
 <!--
 # h1 Heading :blush:
 ## h2 Heading
