@@ -57,7 +57,7 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: true
 
-  siteLogoText: "ZPC project portfolio"   # Text vlevo nahoře
+  siteLogoText: "project how to make (almost) Anything"   # Text vlevo nahoře
   copyrightText: "Jan Hrnek"            # Text dole v patičce
 
   p1:

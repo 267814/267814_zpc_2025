@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/267814_ZPC_2025/tags/vsc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web making</title>
-      <link>http://localhost:1313/267814_ZPC_2025/posts/blog-post-1/</link>
+      <link>http://localhost:1313/267814_ZPC_2025/posts/web-making/</link>
       <pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/267814_ZPC_2025/posts/blog-post-1/</guid>
+      <guid>http://localhost:1313/267814_ZPC_2025/posts/web-making/</guid>
       <description>A basic website built with Visual Studio Code, command line, and GitHub.</description>
     </item>
   </channel>
