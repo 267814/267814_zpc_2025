@@ -102,46 +102,5 @@
         </div>
     </div>
 
-
-    <!-- Sponsors section -->
-    <div class="px-4 mx-auto max-w-md md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="grid grid-cols-2 gap-0.5 mt-12 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-                {{ range .Site.Params.P3.Logos }}
-                <div class="flex col-span-1 justify-center px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
-                    {{ if .image }}
-                    {{ $sponsor := resources.Get .image }}
-                    {{ if eq $sponsor.MediaType.SubType "svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" width="138" height="48" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ else }}
-                    <img src="{{ $sponsor.RelPermalink }}" width="{{ $sponsor.Width }}" height="{{ $sponsor.Height }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                    {{ else }}
-                    {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" width="138" height="48" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
-                    {{ .Site.Params.P3.Heading }}
-                </h2>
-                {{ range .Site.Params.P3.Content }}
-                <p class="mt-6 max-w-3xl text-lg leading-7 text-gray-900 dark:text-white">
-                    {{ .text }}
-                </p>
-                {{ end }}
-                {{ range .Site.Params.P3.Links }}
-                <div class="my-6">
-                    <a href="{{ .url }}" class="text-base font-medium text-primary-400 dark:text-primary-100">
-                        {{ .text }}&nbsp&rarr;
-                    </a>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-    </div>
-
 </main>
 {{ end }}
