@@ -4867,3 +4867,12 @@ EmojiSymbols;
     line-height: 1.75rem;
   }
 }
+
+.fusion-viewer {
+  width: 300% !important;     /* roztáhne se na celou šířku containeru */
+  max-width: 1000px;          /* volitelné, aby nebyl nekonečně široký */
+  height: 600px !important;   /* pevná výška */
+  border: none;
+  display: block;
+  margin: 0 auto;             /* vycentrování */
+}

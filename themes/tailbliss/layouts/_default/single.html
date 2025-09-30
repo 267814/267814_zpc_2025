@@ -7,8 +7,8 @@
       </h1>
     </span>
   </header>
-  <div class="mx-auto mt-8 mb-2 max-w-5xl">
-    <div class="px-6">
+  <div class="w-full">
+    <div class="px-0">
       {{ with .Params.featured_image }}
       {{ with resources.Get . }}
       {{ $small := (.Resize "400x webp q80").RelPermalink }}
@@ -27,8 +27,8 @@
     </div>
   </div>
   <!-- " {{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-  <div class="px-6 pt-6 pb-16 mx-auto prose prose-h1:text-2xl dark:text-white">
-    {{.Content}}
+  <div class="px-6 pt-6 pb-16 mx-auto prose max-w-none w-full prose-h1:text-2xl dark:text-white">
+  {{ .Content }}
   </div>
 </article>
 {{end}}
