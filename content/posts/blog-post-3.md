@@ -12,26 +12,69 @@ categories: Blog
 tags: ["Mini-project"]
 ---
 
-__Advertisement :smile:__
+# Intro
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
+***
 
 ---
 
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+___
+
+In this mini-project we were introduced do 3D scanning and modeling. In reality most of us have already known how to make CAD models, assemblies and what is 3D scanning. However there were some students that were new to this field.
+This mini-project was devied into 4 task, in which we tested our knowledge and experinece in SolidWorks. Me as a holder of 2 certificates (CSWA, CSWP), were these tasks not as hard as for others.
+After I made all of the models and assembly, I save them as .STEP files and imported them into Fusion to make the interactive models on this web.
+
+# Piston-rod
+
+***
+
+---
+
+___
+
+The first task was to make a piston-rod. This one was the easiest of them all, beceause it covered the basic features in SolidWorks. It showed how to make sktech, what is extrude etc. Overall very simple model.
 
 
-## Horizontal Rules
+<iframe src="https://gmail4009016.autodesk360.com/g/shares/SH90d2dQT28d5b602811bff51a55c006b651"
+        width="70%"
+        height="450"
+        style="border:none; display:block; margin:0 auto;"
+        allowfullscreen></iframe>
+        
+# Shaft
+
+***
+
+---
+
+___
+
+Here the main core of the task wasn't the model itself but the drawing. Also very simple task, that requires not only how SolidWorks works, but also norms and rules how to make a technical drawing.
+
+<iframe src="https://gmail4009016.autodesk360.com/g/shares/SH90d2dQT28d5b6028119e74a19932b0d7db"
+        width="70%"
+        height="450"
+        style="border:none; display:block; margin:0 auto;"
+        allowfullscreen></iframe>
+
+## Drawing
+
+As said before to make this drawing we needed to know how to correctly make a drawing. It is a fairly easy drawing most of us already leant in high school. However there are some things that you need technical knowledge about *(for example: Geometrical Tolerances, Tolerances, etc.)*
+
+What is in the drawing:
+  - Dimensions
+  - Tolerances
+  - Geometrical Tolerances
+  - Bases
+  - Section views
+  - Surface Roughness
+  - Additional Notes
+
+<p align="center">
+  <img src="/images/Tripod_scheme.jpg" alt="Tripod scheme" class="rounded-2xl shadow-lg" width="600">
+</p>
+
+# Cardan assembly
 
 ***
 
@@ -40,219 +83,39 @@ You will like those projects!
 ___
 
 
-## Typographic replacements
+<iframe src="https://gmail4009016.autodesk360.com/g/shares/SH90d2dQT28d5b60281139134bc891ec561c"
+        width="70%"
+        height="450"
+        style="border:none; display:block; margin:0 auto;"
+        allowfullscreen></iframe>
 
-Enable typographer option to see result.
+        
+# Holder
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+***
 
-test.. test... test..... test?..... test!....
+---
 
-!!!!!! ???? ,,  -- ---
+___
 
-"Smartypants, double quotes" and 'single quotes'
 
+<iframe src="https://gmail4009016.autodesk360.com/g/shares/SH90d2dQT28d5b602811fa014bf6a1e8d557"
+        width="70%"
+        height="450"
+        style="border:none; display:block; margin:0 auto;"
+        allowfullscreen></iframe>
+        
+# Cover
 
-## Emphasis
+***
 
-**This is bold text**
+---
 
-__This is bold text__
+___
 
-*This is italic text*
 
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+<iframe src="https://gmail4009016.autodesk360.com/g/shares/SH90d2dQT28d5b60281151835f2de52ebf95"
+        width="70%"
+        height="450"
+        style="border:none; display:block; margin:0 auto;"
+        allowfullscreen></iframe>

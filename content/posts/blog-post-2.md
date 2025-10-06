@@ -20,7 +20,7 @@ tags: ["Mini-project"]
 
 ___
 
-This mini-project was focused on 2D graphics and it´s usage. More specifically we were introduced to Plotter and Laser cutter. More info about each machine is under it´s section. This mini-project was overall very interesting, in which we learnt how to make our own logo and taht make it come to life. And also this mini-project needs to be used in my [main project](https://267814.github.io/267814_ZPC_2025/main-project/).
+This mini-project was focused on 2D graphics and it's usage. More specifically we were introduced to Plotter and Laser cutter. More info about each machine is under it's section. This mini-project was overall very interesting, in which we learnt how to make our own logo and taht make it come to life. And also this mini-project needs to be used in my [main project](https://267814.github.io/267814_ZPC_2025/main-project/).
 
 # Plotter
 
@@ -47,7 +47,7 @@ After the logo was recreated into a vector graphic I uploaded it into the plotte
   <img src="/images/vyriznuty-logo.jpg" alt="Vyriznute logo" class="rounded-2xl shadow-lg" width="500">
 </p>
 
-## Final produt
+## Final product
 
 In the end you take the logo and stick it on a transparent tape like piece, so you can then place it where ever you want. For example I put it on my laptop charger.
 

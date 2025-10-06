@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Welcome on my site!</title>
-    <link>http://localhost:1313/267814_ZPC_2025/tags/blog/</link>
+    <link>https://267814.github.io/267814_ZPC_2025/tags/blog/</link>
     <description>Recent content in Blog on Welcome on my site!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Dec 2021 11:10:36 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/267814_ZPC_2025/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://267814.github.io/267814_ZPC_2025/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Post 4</title>
-      <link>http://localhost:1313/267814_ZPC_2025/posts/blog-post-4/</link>
+      <link>https://267814.github.io/267814_ZPC_2025/posts/blog-post-4/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/267814_ZPC_2025/posts/blog-post-4/</guid>
+      <guid>https://267814.github.io/267814_ZPC_2025/posts/blog-post-4/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
     <item>
       <title>Blog Post 5</title>
-      <link>http://localhost:1313/267814_ZPC_2025/posts/blog-post-5/</link>
+      <link>https://267814.github.io/267814_ZPC_2025/posts/blog-post-5/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/267814_ZPC_2025/posts/blog-post-5/</guid>
+      <guid>https://267814.github.io/267814_ZPC_2025/posts/blog-post-5/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
     <item>
       <title>Blog Post 6</title>
-      <link>http://localhost:1313/267814_ZPC_2025/posts/blog-post-6/</link>
+      <link>https://267814.github.io/267814_ZPC_2025/posts/blog-post-6/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/267814_ZPC_2025/posts/blog-post-6/</guid>
+      <guid>https://267814.github.io/267814_ZPC_2025/posts/blog-post-6/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
     <item>
       <title>Blog Post 7</title>
-      <link>http://localhost:1313/267814_ZPC_2025/posts/blog-post-7/</link>
+      <link>https://267814.github.io/267814_ZPC_2025/posts/blog-post-7/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
-      <guid>http://localhost:1313/267814_ZPC_2025/posts/blog-post-7/</guid>
+      <guid>https://267814.github.io/267814_ZPC_2025/posts/blog-post-7/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description>
     </item>
   </channel>
