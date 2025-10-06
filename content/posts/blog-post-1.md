@@ -9,7 +9,7 @@ description: A basic website built with Visual Studio Code, command line, and Gi
 author: Jan Hrnek
 authorimage: /images/jan.jpg
 categories: Blog
-tags: ["VSC", "GitHub", "TailBliss"]
+tags: ["Mini-project"]
 ---
 
 

@@ -9,6 +9,12 @@ featured_image: /images/Tripod_scheme.jpg
 
 # Introduction
 
+***
+
+---
+
+___
+
 The **Joystick-Controlled Tripod** is a motorized camera stand designed to provide precise and intuitive control over device positioning.  
 Using a joystick, the user can easily adjust the tripod’s height, rotate it a full 360°, and tilt the mounted phone or camera to the desired angle.  
 
@@ -25,8 +31,15 @@ Here is a very simple scheme, that shows how will the tripod works.
 
 
 # Assembly
+
+***
+
+---
+
+___
+
 ## Body
-TEST TEXTU
+
 <iframe src="https://gmail4009016.autodesk360.com/g/shares/SH286ddQT78850c0d8a40376fb5c0b93fc4c"
         width="70%"
         height="450"
@@ -37,6 +50,7 @@ TEST TEXTU
 ## Telescopic Shaft
 ## Worm gear set
 ## Controls
+
 ### Arduino
 ### Gyroscope
 ### Motors
@@ -44,3 +58,9 @@ TEST TEXTU
 ## Logo
 
 # Prototype
+
+***
+
+---
+
+___
